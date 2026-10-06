@@ -1,0 +1,191 @@
+{
+  "active_model": {
+    "artifact": "model-201903-9c26866645e3.joblib",
+    "metrics": {
+      "pr_auc": 0.617768151724707,
+      "roc_auc": 0.9690959155150591
+    },
+    "published_at": "2026-10-06T07:52:27.003019+00:00",
+    "run_id": "real-data-check-bootstrap",
+    "schema_version": 1,
+    "sha256": "d20b3f83823854671f88cdeb1c1afd1815a1b6ea08f053b7596e091a09a2043b",
+    "validation_month": "2019-03",
+    "version": "201903-9c26866645e3",
+    "window_end": "2019-03",
+    "window_start": "2019-01"
+  },
+  "bootstrap": {
+    "candidate_metrics": {
+      "pr_auc": 0.617768151724707,
+      "roc_auc": 0.9690959155150591
+    },
+    "decided_at": "2026-10-06T07:52:27.002945+00:00",
+    "incumbent_metrics": null,
+    "manifest": {
+      "artifact": "model-201903-9c26866645e3.joblib",
+      "metrics": {
+        "pr_auc": 0.617768151724707,
+        "roc_auc": 0.9690959155150591
+      },
+      "published_at": "2026-10-06T07:52:27.003019+00:00",
+      "run_id": "real-data-check-bootstrap",
+      "schema_version": 1,
+      "sha256": "d20b3f83823854671f88cdeb1c1afd1815a1b6ea08f053b7596e091a09a2043b",
+      "validation_month": "2019-03",
+      "version": "201903-9c26866645e3",
+      "window_end": "2019-03",
+      "window_start": "2019-01"
+    },
+    "published": true,
+    "reason": "bootstrap",
+    "run_dir": "/opt/project/storage/real-validation/work/9c26866645e3aad4c93b",
+    "run_id": "real-data-check-bootstrap",
+    "run_key": "9c26866645e3aad4c93b",
+    "status": "published",
+    "version": "201903-9c26866645e3",
+    "window_end": "2019-03",
+    "window_start": "2019-01"
+  },
+  "data_quality": {
+    "html_path": "/opt/project/storage/real-validation/dq_reports/real-data-check-next.html",
+    "json_path": "/opt/project/storage/real-validation/dq_reports/real-data-check-next.json",
+    "passed": true,
+    "rules": 13
+  },
+  "finished_at": "2026-10-06T07:52:37.672637+00:00",
+  "month_supply": {
+    "month": "2019-04",
+    "status": "original_labeled_month_available"
+  },
+  "next_window": {
+    "candidate_metrics": {
+      "pr_auc": 0.6591687860130346,
+      "roc_auc": 0.9671668485475383
+    },
+    "decided_at": "2026-10-06T07:52:37.646346+00:00",
+    "incumbent_metrics": {
+      "pr_auc": 0.6950873253565645,
+      "roc_auc": 0.9760256665251654
+    },
+    "published": false,
+    "reason": "Validation metric regression",
+    "run_dir": "/opt/project/storage/real-validation/work/97a7df73e0705aa1e641",
+    "run_id": "real-data-check-next",
+    "run_key": "97a7df73e0705aa1e641",
+    "status": "rejected",
+    "version": "201904-97a7df73e070",
+    "window_end": "2019-04",
+    "window_start": "2019-02"
+  },
+  "original_partitions": [
+    {
+      "fraud_rows": 387,
+      "month": "2019-01",
+      "nonfraud_rows": 39021,
+      "rows": 39408
+    },
+    {
+      "fraud_rows": 380,
+      "month": "2019-02",
+      "nonfraud_rows": 36805,
+      "rows": 37185
+    },
+    {
+      "fraud_rows": 379,
+      "month": "2019-03",
+      "nonfraud_rows": 52949,
+      "rows": 53328
+    },
+    {
+      "fraud_rows": 293,
+      "month": "2019-04",
+      "nonfraud_rows": 50981,
+      "rows": 51274
+    },
+    {
+      "fraud_rows": 307,
+      "month": "2019-05",
+      "nonfraud_rows": 54211,
+      "rows": 54518
+    },
+    {
+      "fraud_rows": 268,
+      "month": "2019-06",
+      "nonfraud_rows": 64116,
+      "rows": 64384
+    },
+    {
+      "fraud_rows": 243,
+      "month": "2019-07",
+      "nonfraud_rows": 64732,
+      "rows": 64975
+    },
+    {
+      "fraud_rows": 290,
+      "month": "2019-08",
+      "nonfraud_rows": 65491,
+      "rows": 65781
+    },
+    {
+      "fraud_rows": 317,
+      "month": "2019-09",
+      "nonfraud_rows": 52821,
+      "rows": 53138
+    },
+    {
+      "fraud_rows": 338,
+      "month": "2019-10",
+      "nonfraud_rows": 50971,
+      "rows": 51309
+    },
+    {
+      "fraud_rows": 281,
+      "month": "2019-11",
+      "nonfraud_rows": 52270,
+      "rows": 52551
+    },
+    {
+      "fraud_rows": 458,
+      "month": "2019-12",
+      "nonfraud_rows": 105273,
+      "rows": 105731
+    },
+    {
+      "fraud_rows": 246,
+      "month": "2020-01",
+      "nonfraud_rows": 38999,
+      "rows": 39245
+    },
+    {
+      "fraud_rows": 239,
+      "month": "2020-02",
+      "nonfraud_rows": 35620,
+      "rows": 35859
+    },
+    {
+      "fraud_rows": 78,
+      "month": "2020-03",
+      "nonfraud_rows": 17667,
+      "rows": 17745
+    }
+  ],
+  "seed": {
+    "rows": 786431,
+    "source": "csv",
+    "status": "seeded"
+  },
+  "source": {
+    "bytes": 144559817,
+    "kind": "real_labeled_csv",
+    "path": "/real-data/train.csv",
+    "personal_columns_omitted": [
+      "name_1",
+      "name_2",
+      "street"
+    ],
+    "sha256": "2fd291f0d66cbb1f3c3e442396f3725d4cbde650d5dd0c16322c5230d3776b99"
+  },
+  "started_at": "2026-10-06T07:52:06.042702+00:00",
+  "status": "passed",
+  "storage_dir": "/opt/project/storage/real-validation"
+}

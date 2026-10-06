@@ -1,0 +1,12 @@
+NAME                                    IMAGE                             COMMAND                  SERVICE             CREATED              STATUS                          PORTS
+fraud-airflow-hw3-airflow-init-1        fraud-airflow-hw3:local           "/bin/bash -ec 'airf…"   airflow-init        About a minute ago   Exited (0) 56 seconds ago       
+fraud-airflow-hw3-airflow-scheduler-1   fraud-airflow-hw3:local           "/usr/bin/dumb-init …"   airflow-scheduler   About a minute ago   Up 55 seconds (healthy)         8080/tcp
+fraud-airflow-hw3-airflow-webserver-1   fraud-airflow-hw3:local           "/usr/bin/dumb-init …"   airflow-webserver   About a minute ago   Up 56 seconds (healthy)         127.0.0.1:8080->8080/tcp
+fraud-airflow-hw3-artifact-browser-1    fraud-airflow-hw3:local           "/usr/bin/dumb-init …"   artifact-browser    About a minute ago   Up About a minute (healthy)     8080/tcp, 127.0.0.1:8081->8081/tcp
+fraud-airflow-hw3-fraud_detector-1      fraud-airflow-hw3:local           "/usr/bin/dumb-init …"   fraud_detector      About a minute ago   Up About a minute (healthy)     8080/tcp
+fraud-airflow-hw3-kafka-1               confluentinc/cp-kafka:7.3.0       "/etc/confluent/dock…"   kafka               2 minutes ago        Up 2 minutes (healthy)          9092/tcp
+fraud-airflow-hw3-kafka-setup-1         confluentinc/cp-kafka:7.3.0       "/bin/bash -ec 'for …"   kafka-setup         2 minutes ago        Exited (0) About a minute ago   
+fraud-airflow-hw3-postgres-1            postgres:15                       "docker-entrypoint.s…"   postgres            6 minutes ago        Up 6 minutes (healthy)          5432/tcp
+fraud-airflow-hw3-scoring_writer-1      fraud-airflow-hw3:local           "/usr/bin/dumb-init …"   scoring_writer      About a minute ago   Up About a minute (healthy)     8080/tcp
+fraud-airflow-hw3-seed-1                fraud-airflow-hw3:local           "/bin/bash -ec 'pyth…"   seed                About a minute ago   Exited (0) About a minute ago   
+fraud-airflow-hw3-zookeeper-1           confluentinc/cp-zookeeper:7.3.0   "/etc/confluent/dock…"   zookeeper           2 minutes ago        Up 2 minutes (healthy)          2181/tcp, 2888/tcp, 3888/tcp

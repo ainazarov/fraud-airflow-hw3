@@ -1,0 +1,11 @@
+.git
+.env
+__pycache__
+**/__pycache__
+*.pyc
+**/*.pyc
+.pytest_cache
+reports
+storage
+data/*.csv
+!data/transactions.csv
